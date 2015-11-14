@@ -4,6 +4,7 @@ var bcrypt = require('bcrypt');
 var unirest = require('unirest');
 var db = require('monk');
 
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
